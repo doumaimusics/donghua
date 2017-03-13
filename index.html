@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+   <style type="text/css">
+	/**{padding: 0;margin: 0;list-style: none;}
+			@keyframes rond {
+  0% {transform : rotate(0deg);}
+  100% {transform : rotate(360deg);}
+}
+
+@-webkit-keyframes rond {
+    0%{-webkit-transform : rotate(0deg);}
+  100%{-webkit-transform : rotate(360deg);}
+}
+@-o-keyframes rond {
+    0%{-o-transform : rotate(0deg);}
+  100%{-o-transform : rotate(360deg);}
+}
+@-moz-keyframes rond {
+    0%{-moz-transform : rotate(0deg);}
+  100%{-moz-transform : rotate(360deg);}
+}
+@-ms-keyframes rond {
+    0%{-ms-transform : rotate(0deg);}
+  100%{-ms-transform : rotate(360deg);}
+}*/
+@keyframes zhuan{
+	0%{transform: rotate(0deg);}
+	100%{transform : rotate(360deg);}
+}
+@-webkit-keyframes zhuan{
+  0%{-webkit-transform: rotate(0deg);}
+  100%{-webkit-transform: rotate(360deg);}	
+}
+@-moz-keyframes zhuan{
+	0%{-moz-transform: rotate(0deg);}
+	100%{-moz-transform: rotate(360deg);}
+}
+@-ms-keyframes zhuan{
+	0%{-ms-transform: rotate(0deg);}
+	100%{-ms-transform: rotate(360deg);}
+}
+
+.cas-box{
+	width: 300px;height: 300px;background: #ccc;
+	margin: 30px auto;
+	position:relative;
+}
+.cas-box .cas1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	border: 1px solid darkmagenta;
+	top: 0;left: 0;bottom: 0;right: 0;margin: auto;
+	animation:zhuan 3s infinite;
+	
+}    
+.cas-box .cas1 .rond{
+	width: 50px;height: 50px;
+	position:absolute;
+	top: 0;left: 10px;
+
+
+	
+}
+.cas-box .cas1 .rond .test{
+	width: 20px;height: 20px;
+	border-radius: 50%;
+	background: blue;
+	position:absolute;
+	top: 0;left: 0;bottom: 0;
+	right: 0;margin: auto;
+
+
+	
+}
+.cas-box .load{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 300px;
+
+}
+   </style>
+	<body>
+
+		
+		<div class="cas-box">
+			<div class="cas1">
+				<div class="rond">
+					<div class="test"></div>
+				</div>				
+			</div>
+			<div class="load">
+					点击
+				</div>
+		</div>		
+	</body>
+</html>
